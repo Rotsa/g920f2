@@ -66,7 +66,7 @@ export ARCH=arm64;
 export SUB_ARCH=arm64;
 
 # G920F
-if [ "$TARGET" = "G920T" ] ; then
+if [ "$TARGET" = "G920F" ] ; then
 	export KERNEL_CONFIG="exynos7420-zeroflte_defconfig";
 fi;
 
